@@ -5,6 +5,13 @@ Version: 0.1
 Author: 骆昊
 Date: 2018-03-13
 """
+'''
+# ----->解决VScode相对路径问题
+import sys
+import os
+os.chdir(sys.path[0])
+# <-----
+'''
 
 import time
 
